@@ -81,6 +81,7 @@ h5 {
 .bage{   
     border-radius: 50%;
 }
+
 .row{
     display: flex;
     flex-direction: row;
@@ -113,7 +114,7 @@ h5 {
 
 }
 .margin-btw{   
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 .margin-top{
     display: inline-block;
@@ -121,6 +122,10 @@ h5 {
 }
 .margin-bottom{
     margin-bottom: 16px;
+}
+.margin-button{
+    margin-top: 20px;
+    margin-left: 5px;
 }
 button{
     background-color: #FFFFFF;
@@ -167,13 +172,37 @@ margin: 0;
 .footer{
     background-color: #616161;
     width: 100%;
-    height: 90px;
+    height: 230px;
+}
+.black-left{
+    background-color: #444444;
+    color:#868686;
+    border:1px solid #444444;
+}
+.black-right{
+    background-color: #000000;
+    color:white;
+    border:1px solid black;
 }
 .my-ul li:hover{
     background-color: #cecbcb;
 }
 button:hover{
     background-color: #cecbcb;
+}
+.black-left:hover{
+    background-color: #1d1616;
+    color:#f1eded;
+    border:1px solid #1d1616;
+}
+.black-right:hover{
+    background-color: #696868;
+    color:white;
+    border:1px solid 696868;
+}
+.p-footer{
+    color: #EBFAFA;
+    margin-left:1px;
 }
 @media screen and (max-width:640px) {
     .row{
