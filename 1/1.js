@@ -13,9 +13,9 @@ const commonString = function (text1, text2) {
       }
     }
   }
+
   // to calculate the min occurance of common letters in both inputs
-  //   console.log(commonLetter);
-  if (commonLetter.length !== 0) {
+   if (commonLetter.length !== 0) {
     for (const key in commonLetter) {
       let num1 = 0;
       let num2 = 0;
@@ -34,6 +34,7 @@ const commonString = function (text1, text2) {
     }
 
     print(commonLetter, numOfOccuranceOfLetters);
+    
   } else {
     console.log("nothing in common");
   }
@@ -50,12 +51,15 @@ function print(commonLetter, numOfOccuranceOfLetters) {
   console.log(str);
 }
 
-try {
+try { 
+  console.log("-------------------");
   commonString("lksnL1KJ2221212", "KLKOnnn121212DLD");
   console.log("-------------------");
   commonString("aabcc", "adcaa");
   console.log("-------------------");
   commonString("l", "K");
+  console.log("-------------------");
+  commonString("", "");
 } catch (error) {
   console.log(error);
 }
